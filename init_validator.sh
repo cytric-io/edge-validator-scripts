@@ -21,5 +21,8 @@ git clone https://github.com/0xPolygon/polygon-edge && cd polygon-edge
 echo "Building Go executable, please wait..."
 go build -o polygon-edge main.go
 
-# Move the binary to a directory in your PATH
-cd ../ && sudo mv polygon-edge /usr/local/bin/
+# Add the current directory to PATH in .bashrc
+echo "export PATH=\$PATH:$(pwd)" >> ~/.bashrc
+
+# Apply changes
+source ~/.bashrc
