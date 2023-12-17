@@ -22,4 +22,4 @@ echo "Building Go executable, please wait..."
 go build -o polygon-edge main.go
 
 # Move the binary to a directory in your PATH
-sudo mv polygon-edge /usr/local/bin/
+cd ../ && sudo mv polygon-edge /usr/local/bin/
