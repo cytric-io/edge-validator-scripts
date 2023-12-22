@@ -19,7 +19,7 @@ source ~/.profile
 # Clone and build polygons-sdk
 git clone https://github.com/0xPolygon/polygon-edge && cd polygon-edge
 echo "Building Go executable, please wait..."
-go build -o polygon-edge main.go
+go build main.go
 
 # Add the current directory to PATH in .bashrc
 echo "export PATH=\$PATH:$(pwd)" >> ~/.bashrc
