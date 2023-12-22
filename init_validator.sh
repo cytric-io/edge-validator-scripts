@@ -11,8 +11,8 @@ echo
 
 # Install dependencies
 sudo apt install wget
-wget https://golang.org/dl/go1.21.5.linux-amd64.tar.gz
-sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go1.21.5.linux-amd64.tar.gz
+wget https://golang.org/dl/go1.19.4.linux-amd64.tar.gz
+sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go1.19.4.linux-amd64.tar.gz
 echo "export PATH=$PATH:/usr/local/go/bin" >> ~/.profile
 source ~/.profile
 
